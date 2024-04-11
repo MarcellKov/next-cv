@@ -1,5 +1,7 @@
+"use client"
 import { useEffect, useState } from "react"
 export function Card(props) {
+    
     const [data, setData] = useState(0)
     var flag=false
 
@@ -20,8 +22,9 @@ export function Card(props) {
         flag=false
     }
 
-
+    
     return (
+        
         <>
         <div className="flex items-center h-[100%] justify-evenly ">
 
